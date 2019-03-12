@@ -9,5 +9,5 @@ public class SecondAssignment {
 	public static void main(String[] args) {
 		state();
 	}
-
+	
 }
