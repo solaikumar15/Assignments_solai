@@ -17,8 +17,7 @@ public class AlertBoxDemo {
 //		Click on Try Button
 		driver.findElement(By.cssSelector("body > div.elementor.elementor-599 > div > div > section.elementor-element.elementor-element-9860042.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.elementor-section.elementor-top-section > div > div > div > div > div > div > div > button")).click();
 
-//		Click on OK button
-		
+//		Click on OK button		
 		driver.switchTo().alert().accept();
 		
 	}
