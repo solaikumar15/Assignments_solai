@@ -15,7 +15,9 @@ public class Assignment2 {
 		
 		driver.get("https://www.barnesandnoble.com/");
 		
-		driver.manage().window().fullscreen();
+		//It is not fullscreen, it is maximize()
+		//driver.manage().window().fullscreen();
+		driver.manage().window().maximize();
 		
 		//WebDriverWait wait = new WebDriverWait(driver,10);
 		//wait.until(ExpectedConditions.elementToBeClickable(By.id("bx-element-937133-txSrrII")));
