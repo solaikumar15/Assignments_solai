@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author solai
- *
- */
-module Assignments {
-}
