@@ -30,9 +30,9 @@ public class Assignment2 {
 		action.moveToElement(signIn).perform();
 		System.out.println("Test case pass");
 		
-		driver.findElement(By.partialLinkText("Sign In")).click();
+		driver.findElement(By.linkText("Sign In")).click();
 		
-		driver.findElement(By.id("loginForgotPassword")).click();
+		driver.findElement(By.linkText("loginForgotPassword")).click();
 		
 		driver.findElement(By.id("email")).sendKeys("solai.muthukumar@gmail.com");
 		
