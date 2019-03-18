@@ -56,5 +56,5 @@ public class CategoriesAndHobbies {
          select.selectByVisibleText("Best Seller");
 		
 	}
-
+//This also is correct
 }

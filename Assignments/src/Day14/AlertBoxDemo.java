@@ -15,6 +15,7 @@ public class AlertBoxDemo {
 		driver.get("https://whitecircleschool.com/alertboxdemo/");
 
 //		Click on Try Button
+		//Here you had to write the logic to check if aler box is present
 		driver.findElement(By.cssSelector("body > div.elementor.elementor-599 > div > div > section.elementor-element.elementor-element-9860042.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default.elementor-section.elementor-top-section > div > div > div > div > div > div > div > button")).click();
 
 //		Click on OK button		
