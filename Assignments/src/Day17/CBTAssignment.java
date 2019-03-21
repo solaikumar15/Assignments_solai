@@ -44,9 +44,11 @@ public class CBTAssignment {
 		Assert.assertFalse(signinBtnStatus);
 	}
 
-//	@AfterTest
-//	public void closeBrowser() {
-//		driver.close();
-//	}
+	@AfterTest
+	public void closeBrowser() {
+		driver.close();
+	}
+	
+	//Correct
 
 }

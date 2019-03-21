@@ -16,7 +16,9 @@ public class IntArraryListAssignment {
 		
         System.out.println("Total number of items in the list =" +score.size());
         System.out.println("Value of the Last item in the List is:" + score.get(4));
-        System.out.println("Index of the last item in the List is:" + score.lastIndexOf(score));
+        //System.out.println("Index of the last item in the List is:" + score.lastIndexOf(score));
+        //Above statement is incorrect, it should be written like -
+        System.out.println("Index of the last item = " + score.indexOf(78));
 	}
 
 }

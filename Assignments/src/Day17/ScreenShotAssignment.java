@@ -57,5 +57,6 @@ public class ScreenShotAssignment {
 	public void closeBrowser() {
 		driver.close();
 	}
-
+//This logic is not correct. It will take screenshots only in case of failures. We have to take 
+	//screenshot everytime we move from one page to next page.
 }
